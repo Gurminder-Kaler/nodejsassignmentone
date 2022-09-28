@@ -1,0 +1,23 @@
+{
+  "name": "assignmentone",
+  "version": "1.0.0",
+  "description": "This is Gurminder\\s Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node index.js",
+    "start": "nodemon index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "module-alias": "^2.2.2",
+    "mongoose": "^6.6.2",
+    "nodemon": "^2.0.20",
+    "validator": "^13.7.0"
+  }
+}
