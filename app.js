@@ -30,6 +30,8 @@ app.use((req, res, next) => {
   next();
 });
 
+app.use('/image', imageRouter)
+
 //middleware to check if url is found or not.
 app.use((req, res, next) => {
   const error = new Error("URL Not found or Please Check POST or GET");

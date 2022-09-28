@@ -4,20 +4,21 @@ const imageSchema = Schema({
   _id: Schema.Types.ObjectId,
   name: {
     type: String,
+    required: true,
   },
-  category: { type: Schema.Types.ObjectId, ref: "QuizCategory" },
-  createdAt: {
-    type: Date,
-    default: Date.now,
+  url: {
+    type: String,
+    required: true,
   },
-  updatedAt: {
-    type: Date,
-    default: null,
+  size: {
+    type: String,
+    required: true,
   },
+  timestamps: true,
   deletedAt: {
     type: Date,
     default: null,
   },
 });
 
-module.exports = mongoose.model("Quiz", imageSchema);
+module.exports = mongoose.model("Image", imageSchema);
