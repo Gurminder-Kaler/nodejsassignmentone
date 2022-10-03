@@ -19,5 +19,13 @@
     "mongoose": "^6.6.2",
     "nodemon": "^2.0.20",
     "validator": "^13.7.0"
+  },
+  "_moduleAliases": {
+    "@routes": "api/routes",
+    "@models": "api/models",
+    "@constants": "api/constants",
+    "@controllers": "api/controllers", 
+    "@services": "api/services",
+    "@validations": "api/validators"
   }
 }

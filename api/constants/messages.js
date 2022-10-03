@@ -4,6 +4,7 @@ module.exports = Object.freeze({
     IMAGE: {
       FOUND: "Images found " + S,
       ADDED: "Image added " + S,
+      DELETED: "Image deleted " + S,
     },
   },
   FAILURE: {

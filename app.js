@@ -1,7 +1,9 @@
+require('module-alias/register')
 const express = require("express");
 const app = express();
 const bodyParser = require("body-parser");
 const mongoose = require("mongoose");
+const imageRouter = require('@routes/imageRouter');
 
 mongoose.connect(process.env.MONGO_URI_ONLINE, {
   useNewUrlParser: true,
